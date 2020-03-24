@@ -1,3 +1,3 @@
 https://travis-ci.com/bugaga427/python-project-lvl1.png?branch=master
 
-https://asciinema.org/a/313170
+[![asciicast](https://asciinema.org/a/313170.png)](https://asciinema.org/a/313170)
