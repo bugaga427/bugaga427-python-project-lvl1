@@ -1,15 +1,50 @@
+#BRAIN GAMES
+
 [![Build Status](https://travis-ci.com/bugaga427/python-project-lvl1.png?branch=master)](https://travis-ci.com/bugaga427/python-project-lvl1.png?branch=master)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d8c24ccb743d72152797/maintainability)](https://codeclimate.com/github/bugaga427/python-project-lvl1/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d8c24ccb743d72152797/test_coverage)](https://codeclimate.com/github/bugaga427/python-project-lvl1/test_coverage)
 
-[![asciicast](https://asciinema.org/a/313170.png)](https://asciinema.org/a/313170)
+#####For install this package enter the command in the console:
+```
+python3 -m pip install -i --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ bugaga428-brain-games
+```
+[![asciicast](https://asciinema.org/a/8KciFlZwbO3ww4pONpqb5bdxT.png)](https://asciinema.org/a/8KciFlZwbO3ww4pONpqb5bdxT)
 
-[![asciicast](https://asciinema.org/a/Cg7WzMVSa3WCympyiswQE9meu.png)](https://asciinema.org/a/Cg7WzMVSa3WCympyiswQE9meu)
+##Gameplay
 
-[![asciicast](https://asciinema.org/a/mIRWfGx2N8FV7NA1Kzb9BCjKd.png)](https://asciinema.org/a/mIRWfGx2N8FV7NA1Kzb9BCjKd)
+###Brain even
+#####Answer "yes" if number even otherwise answer "no".
+```
+brain-even
+```
+[![asciicast](https://asciinema.org/a/9DjpOjVON7XbWvkt2I6rXJqry.png)](https://asciinema.org/a/9DjpOjVON7XbWvkt2I6rXJqry)
 
-[![asciicast](https://asciinema.org/a/jgHCC3P4yiBq3AAmmp2BliYac.png)](https://asciinema.org/a/jgHCC3P4yiBq3AAmmp2BliYac)
+###Brain calc
+#####What is the result of the expression?
+```
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/A1jP7b9R5DujkwEW5QIQNBD8k.png)](https://asciinema.org/a/A1jP7b9R5DujkwEW5QIQNBD8k)
 
-[![asciicast](https://asciinema.org/a/XzQgoLH8y2vTziHEzz7sTbH43.png)](https://asciinema.org/a/XzQgoLH8y2vTziHEzz7sTbH43)
+###Brain gcd
+#####Find the greatest common divisor of given numbers
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/MFoE3DOAKbNMCkQQKtJNZfgwG.png)](https://asciinema.org/a/MFoE3DOAKbNMCkQQKtJNZfgwG)
+
+###Brain progression
+#####What number is missing in the progression?
+```
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/Gxkghwe6Ak9mKGPrrdarSoQKv.png)](https://asciinema.org/a/Gxkghwe6Ak9mKGPrrdarSoQKv)
+
+###Brain prime
+#####Answer "yes" if given number is prime. Otherwise answer "no".
+```
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/wmOrngHj8W92WtPqZcOmWPxQy.png)](https://asciinema.org/a/wmOrngHj8W92WtPqZcOmWPxQy)
