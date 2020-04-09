@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "bugaga428_brain_games"
-version = "0.7.0"
-description = ""
+version = "0.7.1"
+description = "Brain games is a collection of mini-games launched from the console."
 authors = ["bugaga427 <vladislav3372@gmail.com>"]
 packages = [
   { include = "brain_games" }
