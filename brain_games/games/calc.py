@@ -1,47 +1,26 @@
 from random import randint
-from brain_games.cli import welcome_user, greet
 
 
-def calc():
-    greet()
-    print("What is the result of the expression?")
-    print()
-    name = welcome_user()
-    print()
+DESCRIPTION = 'What is the result of the expression?'
+
+
+def round():
     operators = ('+', '-', '*')
-    attempt = 0
 
-    while attempt < 3:
-        first_operand = randint(1, 50)
-        second_operand = randint(1, 50)
-        index = randint(0, 2)
-        print('Question: {} {} {}'.format(
-                                    str(first_operand),
-                                    operators[index],
-                                    str(second_operand)))
-        answer = input('Your answer: ')
+    first_number = randint(1, 25)
+    second_number = randint(1, 25)
+    index = randint(0, 2)
 
-        if operators[index] == '+':
-            result = first_operand + second_operand
-        elif operators[index] == '-':
-            result = first_operand - second_operand
-        elif operators[index] == '*':
-            result = first_operand * second_operand
+    if first_number < second_number and index == 1:
+        first_number, second_number = second_number, first_number
 
-        if int(answer) == result:
-            print('Correct!')
-            attempt += 1
-        else:
-            print("'{}' is wrong answer ;(. \
-Correct answer was '{}'".format(
-                             answer,
-                             str(result)))
-            print("Let's try again")
-            break
+    question = '{} {} {}'.format(first_number, operators[index], second_number)
 
-    else:
-        print('Congratulation, {}!'.format(name))
+    if index == 0:
+        answer = str(first_number + second_number)
+    elif index == 1:
+        answer = str(first_number - second_number)
+    elif index == 2:
+        answer = str(first_number *  second_number)
 
-
-if __name__ == '__main__':
-    calc()
+    return question, answer
