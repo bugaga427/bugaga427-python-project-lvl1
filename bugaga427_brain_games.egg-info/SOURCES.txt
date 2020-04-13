@@ -1,8 +1,0 @@
-brain_games/__init__.py
-brain_games/scripts/__init__.py
-brain_games/scripts/brain_games.py
-bugaga427_brain_games.egg-info/PKG-INFO
-bugaga427_brain_games.egg-info/SOURCES.txt
-bugaga427_brain_games.egg-info/dependency_links.txt
-bugaga427_brain_games.egg-info/entry_points.txt
-bugaga427_brain_games.egg-info/top_level.txt
