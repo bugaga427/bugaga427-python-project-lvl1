@@ -10,7 +10,7 @@
 ```
 python3 -m pip install -i --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ bugaga428-brain-games
 ```
-[![asciicast](https://asciinema.org/a/8KciFlZwbO3ww4pONpqb5bdxT.png)](https://asciinema.org/a/8KciFlZwbO3ww4pONpqb5bdxT)
+[![asciicast](https://asciinema.org/a/vSqJr9xg5t0z5PZI4GuAvvVb7.png)](https://asciinema.org/a/vSqJr9xg5t0z5PZI4GuAvvVb7)
 
 ## Gameplay
 
