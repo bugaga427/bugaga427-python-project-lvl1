@@ -5,16 +5,16 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def round():
-    number = randint(1, 100)
+    number = randint(2, 100)
     question = str(number)
-    
+
     choise = 0
 
     for i in range(2, number + 1):
         if number % i == 0:
             choise += 1
 
-        if choise == 2:
+        if choise == 1:
             answer = 'yes'
         else:
             answer = 'no'
