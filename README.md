@@ -4,8 +4,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d8c24ccb743d72152797/maintainability)](https://codeclimate.com/github/bugaga427/python-project-lvl1/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d8c24ccb743d72152797/test_coverage)](https://codeclimate.com/github/bugaga427/python-project-lvl1/test_coverage)
-
 ##### For install this package enter the command in the console:
 ```
 python3 -m pip install -i --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ bugaga428-brain-games
