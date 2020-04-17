@@ -6,6 +6,10 @@ authors = ["bugaga427 <vladislav3372@gmail.com>"]
 packages = [
   { include = "brain_games" }
 ]
+repository = "https://github.com/bugaga427/python-project-lvl1"
+classifiers = [
+    "Topic :: Games/Entertainment"
+]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
