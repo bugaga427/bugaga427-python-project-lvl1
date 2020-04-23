@@ -25,7 +25,3 @@ def run(game, ROUND_OF_GAME=3):
             break
     else:
         print("Congratulations, {}".format(name))
-
-
-if __name__ == "__main__":
-    run()
