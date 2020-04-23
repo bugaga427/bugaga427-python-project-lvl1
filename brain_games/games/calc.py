@@ -5,7 +5,7 @@ from operator import add, sub, mul
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def round():
+def new_round():
     OPERATORS = ((add, '+'), (sub, '-'), (mul, '*'))
 
     first_number = randint(1, 25)

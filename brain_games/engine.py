@@ -2,7 +2,7 @@ import prompt
 from brain_games.cli import greet, welcome_user
 
 
-def run(game, ROUND_OF_GAME=3):
+def run(game, round_of_game=3):
     greet()
     print(game.DESCRIPTION)
     print()
@@ -11,17 +11,16 @@ def run(game, ROUND_OF_GAME=3):
 
     counter = 0
 
-    while counter != ROUND_OF_GAME:
-        question, correct_answer = game.round()
+    while counter != round_of_game:
+        question, correct_answer = game.new_round()
         print("Question: {}".format(question))
         user_answer = prompt.string("Your answer: ")
-        if user_answer == correct_answer:
-            counter += 1
-            print("Correct!")
-        else:
+        if user_answer != correct_answer:
             print("'{}' is wrong answer ;(. Correct answer was '{}'".format(
                 user_answer, correct_answer))
             print("Let's try again!")
-            break
+            break 
+        counter += 1
+        print("Correct!")
     else:
         print("Congratulations, {}".format(name))
