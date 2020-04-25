@@ -1,1 +1,2 @@
-from brain_games.games import calc  # noqa: ignore=F401
+# flake8: noqa
+from brain_games.games import calc
