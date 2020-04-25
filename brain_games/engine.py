@@ -19,7 +19,7 @@ def run(game, round_of_game=3):
             print("'{}' is wrong answer ;(. Correct answer was '{}'".format(
                 user_answer, correct_answer))
             print("Let's try again!")
-            break 
+            break
         counter += 1
         print("Correct!")
     else:
