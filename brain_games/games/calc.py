@@ -12,6 +12,6 @@ def new_round():
     operator, char = choice(OPERATORS)
 
     question = '{} {} {}'.format(first_number, char, second_number)
-    answer = str(operator(first_number, second_number))
+    answer = operator(first_number, second_number)
 
-    return question, answer
+    return question, str(answer)
