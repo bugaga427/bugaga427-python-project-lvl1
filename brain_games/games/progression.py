@@ -4,13 +4,13 @@ from random import randint
 DESCRIPTION = "What number is missing in the progression?"
 
 
-def round():
+def new_round():
     first = randint(0, 50)
     step = randint(1, 10)
     index = randint(0, 9)
 
     seq = list(range(first, first + (10 * step), step))
-    answer = str(seq[index])
+    answer = seq[index]
     seq[index] = '..'
 
     for item in seq:
@@ -19,4 +19,4 @@ def round():
         else:
             question += ' ' + str(item)
 
-    return question, answer
+    return question, str(answer)
