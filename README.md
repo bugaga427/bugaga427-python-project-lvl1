@@ -4,9 +4,10 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d8c24ccb743d72152797/maintainability)](https://codeclimate.com/github/bugaga427/python-project-lvl1/maintainability)
 
+####Brain games is a collection of math mini-games launched from the console.
 ##### For install this package enter the command in the console:
 ```
-python3 -m pip install -i --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ bugaga428-brain-games
+python3 -m pip install --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ bugaga428-brain-games
 ```
 [![asciicast](https://asciinema.org/a/vSqJr9xg5t0z5PZI4GuAvvVb7.png)](https://asciinema.org/a/vSqJr9xg5t0z5PZI4GuAvvVb7)
 
