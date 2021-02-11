@@ -1,6 +1,6 @@
 # BRAIN GAMES
 
-[![Build Status](https://travis-ci.com/bugaga427/python-project-lvl1.png?branch=master)](https://travis-ci.com/bugaga427/python-project-lvl1.png?branch=master)
+[![Build Status](https://travis-ci.com/bugaga427/bugaga427-python-project-lvl1.svg?branch=master)](https://travis-ci.com/bugaga427/bugaga427-python-project-lvl1.svg?branch=master)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d8c24ccb743d72152797/maintainability)](https://codeclimate.com/github/bugaga427/python-project-lvl1/maintainability)
 
